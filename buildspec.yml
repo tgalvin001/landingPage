@@ -8,7 +8,12 @@ phases:
      - echo "pre_build step"
  build:
    commands:
-     - aws s3 sync . s3://timothygalvin.net
+     - echo "build step"
+  artificats:
+    files:
+     - "**/*"
+    discard-paths: no
+    base-directory: dist   
  post_build:
    commands:
      - echo "post_build step"
