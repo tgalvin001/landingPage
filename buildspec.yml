@@ -13,5 +13,6 @@ artifacts:
   files:
     - dist/**/*
     - img/*
+    - index.html
   discard-paths: no
 
