@@ -9,11 +9,11 @@ phases:
  build:
    commands:
      - echo "build step"
-  artificats:
-    files:
+ artificats:
+   files:
      - "**/*"
-    discard-paths: no
-    base-directory: dist   
+   discard-paths: no
+   base-directory: dist   
  post_build:
    commands:
      - echo "post_build step"
