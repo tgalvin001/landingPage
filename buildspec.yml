@@ -11,6 +11,7 @@ phases:
      - echo "build step"
 artifacts:
   files:
-    - "**/*"
+    - dist/**/*
+    - img/*
   discard-paths: no
-    
+
