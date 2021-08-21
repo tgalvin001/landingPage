@@ -8,7 +8,7 @@ phases:
      - echo "pre_build step"
  build:
    commands:
-     - aws s3 sync ./build s3://timothygalvin.net
+     - aws s3 sync . s3://timothygalvin.net
  post_build:
    commands:
      - echo "post_build step"
