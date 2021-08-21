@@ -13,10 +13,7 @@ artifacts:
   files:
     - dist/**/*
     - img/*
+    - index.html
   discard-paths: no
-  secondary-artifacts:
-   artifact1:
-    files:
-     - dist/index.html
-    discard-paths: yes
+  
 
